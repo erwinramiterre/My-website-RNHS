@@ -1,0 +1,296 @@
+<!DOCTYPE Html>
+    <Html Lang="En">
+        <Head>
+            <Meta Charset="UTF-8" />
+            <Meta
+                Name="Viewport"
+                Content="Width=Device-Width, Initial-Scale=1.0"
+            />
+            <Title>REGISTRATION</Title>
+            <style>
+			
+			#bg {  
+   background-color:blue;  
+   border:2px solid whitesmoke;  
+   padding: 40px;  
+   position: absolute;  
+   margin-left: 340px;  
+   margin-top: 10px;  
+   height: 1200px;  
+   width: 780px;  
+   line-height:0px;  
+  }  
+  body{
+	background-image: url("image2.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	margin-left: auto;
+    margin-right: auto;
+	height: 50vh;
+	width: 20%;
+	
+}
+  h1 {  
+   color: lightsalmon;  
+   text-align: center;  
+   padding: 0px;  
+   font-size: 30px;  
+  }  
+  #form {  
+   background-color:lightsalmon;  
+   border: 2px solid black;  
+   padding: 40px;  
+   position: absolute;  
+   margin-left: auto;  
+   margin-right: auto;  
+   margin-top: 20px;  
+   height: 950px;  
+   width: 700px;  
+   line-height:0px;  
+  }  
+  #table{  
+    height: 950px;  
+    width: 700px;  
+    text-align: justify;  
+    color: white;  
+    font-weight: bold;  
+    font-style: normal;  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+  }  
+  th{  
+   text-align: center;  
+  }  
+  td{  
+ padding: 2px;  
+   justify-content: left;  
+  }  
+  tr{  
+  padding: 30px;  
+   width: 200px;  
+   border-collapse: separate;  
+   text-align: left;  
+  }  
+  #submit_p1{  
+   text-align: center;  
+   font-weight: bolder;  
+   font-size: xx-large;  
+   color:lawngreen;  
+  }  
+  #submit_p2{  
+   text-align: center;  
+   font-size: xx-large;  
+   font-weight: bold;  
+   color: purple;  
+  }  
+  a{  
+   text-align: center;  
+   font-size: xx-large;  
+   font-weight: bold;  
+   color: slateblue;  
+  }  
+  input,select {  
+   color: #5a5854;  
+   background-color: #f2f2f2;  
+   padding: 4px 4px 4px 2px;  
+   border-radius: 10px;  
+   margin-bottom: 1px;  
+ }  
+ a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 8px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+  </style>
+        </Head>
+        <Body>
+		<center>
+            <Div Id="Bg">
+                <Center></Center>
+                <Br />
+                <B
+                    ><U> <H1 style="color: black;">STUDENT REGISTRATION FORM</H1></U>
+                </B>
+				<a href="index.html">DONE</a>
+				<br>
+                <Div Id="Form">
+                    <Form Method="Get" Action="Submit.Html">
+                        <Table Id="Table">
+                            <Tr>
+                                <Td style="color: black;">FIRST NAME:</Td>
+                                <Td>
+                                    <Input
+                                        Type="Text"
+                                        Name="Username"
+                                        Size="30"
+                                        Maxlength="30"
+                                        Placeholder="Enter First Name"
+                                    />
+                                    (Max 30 Characters A-Z And A-Z)
+                                </Td>
+                            </Tr>
+                            <Tr>
+                                <Td>LAST NAME:</Td>
+                                <Td>
+                                    <Input
+                                        Type="Text"
+                                        Name="Username"
+                                        Size="30"
+                                        Maxlength="30"
+                                        Placeholder="Enter Last Name"
+                                    />
+                                    (Max 30 Characters A-Z And A-Z)
+                                </Td>
+                            </Tr>
+                            <Tr>
+                                <Td>DATE OF BIRTH:</Td>
+                                <Td>
+                                    <Input
+                                        Type="Number"
+                                        Name="Day"
+                                        Size="2"
+                                        Maxlength="2"
+                                        Placeholder="Day"
+                                        Min="1"
+                                        Max="31"
+                                    />
+                                    <Select Name="Month">
+                                        <Option Value="Month">Month</Option>
+                                        <Option Value="Jan">Jan</Option>
+                                        <Option Value="Feb">Feb</Option>
+                                        <Option Value="Mar">Mar</Option>
+                                        <Option Value="Apr">Apr</Option>
+                                        <Option Value="May">May</Option>
+                                        <Option Value="June">June</Option>
+                                        <Option Value="July">July</Option>
+                                        <Option Value="Aug">Aug</Option>
+                                        <Option Value="Sep">Sep</Option>
+                                        <Option Value="Oct">Oct</Option>
+                                        <Option Value="Nov">Nov</Option>
+                                        <Option Value="Dec">Dec</Option>
+                                    </Select>
+                                    <Input
+                                        Type="Text"
+                                        Name="Year"
+                                        Size="5"
+                                        Maxlength="4"
+                                        Placeholder="Year"
+                                        Min="1991"
+                                        Max="2005"
+                                    />
+                                </Td>
+                            </Tr>
+                            <Tr>
+                                <Td>EMAIL ID:</Td>
+                                <Td>
+                                    <Input
+                                        Id="Email"
+                                        Type="Email"
+                                        Name="Email"
+                                        Size="30"
+                                        Maxlength="100"
+                                    />
+                                </Td>
+                            </Tr>
+                            <Tr>
+                                <Td>MOBILE NO:</Td>
+                                <Td>
+                                    <Input
+                                        Type="Tel"
+                                        Name="Number"
+                                        Size="30"
+                                        Maxlength="12"
+                                        Placeholder="Enter Mobile No"
+                                    />
+                                    (11 Digits Number)
+                                </Td>
+                            </Tr>
+                            <Tr>
+                                <Td>GENDER:</Td>
+                                <Td>
+                                    <Input
+                                        Id="Female"
+                                        Type="Radio"
+                                        Name="Gender"
+                                        Value="F"
+                                    />
+                                    <Label For="Female">Female</Label>
+                                    <Input
+                                        Id="Male"
+                                        Type="Radio"
+                                        Name="Gender"
+                                        Value="M"
+                                    />
+                                    <Label For="Male">Male</Label>
+                                </Td>
+                            </Tr>
+                           
+                            <Tr>
+                                <Td>Barangay/Street:</Td>
+                                <Td>
+                                    <Input
+                                        Type="Text"
+                                        Name="City"
+                                        Size="30"
+                                        Maxlength="30"
+                                        Placeholder="Enter Your City Name"
+                                    />
+                                </Td>
+                            </Tr>
+                            <Tr>
+                                <Td>ZIP CODE:</Td>
+                                <Td>
+                                    <Input
+                                        Type="Text"
+                                        Name="Pin"
+                                        Size="30"
+                                        Maxlength="30"
+                                        Placeholder="Enter Pin Code"
+                                    />
+                                    (6 Digits Number)
+                                </Td>
+                            </Tr>
+                            <Tr>
+                                <Td>City:</Td>
+                                <Td>
+                                    <Input
+                                        Type="Text"
+                                        Name="State"
+                                        Size="30"
+                                        Maxlength="30"
+                                        Placeholder="Enter Your State Name"
+                                    />
+                                </Td>
+                            </Tr>
+                            <Tr>
+							
+						
+                                <Td>Province:</Td>
+                                <Td>
+                                    <Input
+                                        Type="Text"
+                                        Name="COUNTRY"
+                                        Size="30"
+                                        Maxlength="30"
+                                        Placeholder="Enter Your City Name"
+										  
+										
+                                
+									
+                                </Td>
+								
+								
+								
+								</center>
+								
+								
+                            
+        </Body>
+    </Html>
